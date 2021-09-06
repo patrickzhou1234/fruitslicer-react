@@ -48,7 +48,7 @@ function render() {
   }
   if (rendersplash) {
     ReactDOM.render(
-      e('div', null, e('img', {src:"shuriken.png", style:{width:10+'vh', height:10+'vh', position:'absolute', left: leftpos-window.innerHeight*0.05+'px', top: toppos-window.innerHeight*0.05+'px', transform:'rotate('+angle+'deg)'}}), e('img', {src:"lemon.png", style:{width:10+'vh', height:10+'vh', position:'absolute', left:lemonX+'px', top:lemonY+'px', transform:"rotate("+lemonrot+"deg)"}}), e('img', {src:"lemonsplash.png", style:{width:10+'vh', height:10+'vh', position:'absolute', left:splashX+'px', top:splashY+'px'}}), e('p', {style:{position:"absolute", color:"lightgreen", fontSize:4+'vw'}}, score)), root
+      e('div', null, e('img', {src:"shuriken.png", style:{width:10+'vh', height:10+'vh', position:'absolute', left: leftpos-window.innerHeight*0.05+'px', top: toppos-window.innerHeight*0.05+'px', transform:'rotate('+angle+'deg)'}}), e('img', {src:"lemon.png", style:{width:10+'vh', height:10+'vh', position:'absolute', left:lemonX+'px', top:lemonY+'px', transform:"rotate("+lemonrot+"deg)"}}), e('img', {src:"lemonsplash.png", style:{width:10+'vh', height:10+'vh', position:'absolute', left:splashX+'px', top:splashY+'px'}}), e('p', {style:{position:"absolute", color:"lightgreen", fontSize:4+'vw'}}, 'score: '+score)), root
     );
     return;
   }
