@@ -1,0 +1,17 @@
+html {
+  overflow: hidden;
+  background-color: black;
+}
+
+html:hover {
+  cursor: crosshair;
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none; 
+  -webkit-user-drag: none;
+}
