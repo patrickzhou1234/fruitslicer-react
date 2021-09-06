@@ -1,6 +1,6 @@
 html {
   overflow: hidden;
-  background-color: black;
+  background-color: rgb(0, 119, 255);
 }
 
 html:hover {
@@ -12,6 +12,6 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  user-drag: none; 
+  user-drag: none;
   -webkit-user-drag: none;
 }
