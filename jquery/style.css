@@ -1,0 +1,58 @@
+html {
+  background-color: black;
+  overflow: hidden;
+}
+
+html:hover {
+  cursor: crosshair;
+}
+
+img {
+  webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  user-drag: none;
+  -webkit-user-drag: none;
+}
+
+#lemon {
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  left: 0vw;
+  top: 0vh;
+}
+
+.lemonanim {
+  animation: lemonanim 3s linear infinite;
+}
+
+@keyframes lemonanim {
+  0%{top: 0px;transform: rotate(0deg);}
+  100%{top: 90vh;transform: rotate(720deg);}
+}
+
+#shuriken {
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  left: calc(50vw - 5vh);
+  top: 45vh;
+}
+
+#lemonsplash {
+  display: none;
+  width: 10vh;
+  height: 10vh;
+  position: absolute;
+}
+
+.spinshuriken {
+  animation: spinshuriken 1s linear infinite;
+}
+
+@keyframes spinshuriken {
+  0%{transform: rotate(0deg);}
+  100%{transform: rotate(359deg);}
+}
